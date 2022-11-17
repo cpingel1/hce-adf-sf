@@ -1,0 +1,22 @@
+{
+	"name": "hce-SSIS-IR",
+	"properties": {
+		"type": "Managed",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"nodeSize": "Standard_D2_v3",
+				"numberOfNodes": 1,
+				"maxParallelExecutionsPerNode": 2,
+				"vNetProperties": {
+					"vNetId": "/subscriptions/7bd3d2cf-2917-48aa-b2d0-6694b313f56e/resourceGroups/hce-rg/providers/Microsoft.Network/virtualNetworks/hce-vnet",
+					"subnet": "default"
+				}
+			},
+			"ssisProperties": {
+				"edition": "Standard",
+				"licenseType": "LicenseIncluded"
+			}
+		}
+	}
+}

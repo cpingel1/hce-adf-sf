@@ -1,0 +1,9 @@
+{
+	"name": "hce-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5378fbf2-32c6-465e-bf9b-d5beb28856d8",
+		"tenantId": "db05faca-c82a-4b9d-b9c5-0f64b6755421"
+	}
+}
